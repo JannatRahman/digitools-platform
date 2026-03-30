@@ -3,9 +3,9 @@ import { FaCheck } from 'react-icons/fa';
 
 const Pricing = () => {
   return (
-    <div className='container mx-auto mb-50 '>
-      <div className=' mx-auto text-center'>
-        <h2 className='text-3xl font-bold'>Simple, Transparent Pricing</h2>
+    <div className='container mx-auto mb-30 '>
+      <div className=' mx-auto text-center space-y-3 pb-5'>
+        <h2 className='text-4xl font-bold '>Simple, Transparent Pricing</h2>
         <p className='text-sm text-gray-700'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
       </div>
 

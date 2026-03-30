@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Perfect for beginners to create professional resumes quickly.",
+    "price": 9,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["20+ templates", "Basic ATS optimization", "Export to PDF"],
+    "icon": "FileText"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with premium templates and tools.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF", "Cover letter builder"],
+    "icon": "Star"
+  },
+  {
+    "id": 3,
+    "name": "Career Boost Pack",
+    "description": "All-in-one package to boost your job applications.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Resume + Cover letter", "LinkedIn optimization", "Interview tips"],
+    "icon": "TrendingUp"
+  },
+  {
+    "id": 4,
+    "name": "LinkedIn Optimizer",
+    "description": "Enhance your LinkedIn profile for better visibility.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Profile review", "Keyword optimization", "Headline generator"],
+    "icon": "Linkedin"
+  },
+  {
+    "id": 5,
+    "name": "Interview Prep AI",
+    "description": "Practice interviews with AI-powered feedback.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Mock interviews", "AI feedback", "Common questions bank"],
+    "icon": "Mic"
+  },
+  {
+    "id": 6,
+    "name": "Ultimate Career Plan",
+    "description": "Yearly plan with full access to all career tools.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["All features unlocked", "Priority support", "Unlimited exports"],
+    "icon": "Crown"
+  },
+  {
+    "id": 7,
+    "name": "Portfolio Builder",
+    "description": "Create stunning personal portfolios easily.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Custom domains", "Drag & drop builder", "Responsive design"],
+    "icon": "Layout"
+  },
+  {
+    "id": 8,
+    "name": "Job Tracker Pro",
+    "description": "Track and manage all your job applications in one place.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Application tracking", "Status updates", "Deadline reminders"],
+    "icon": "CheckCircle"
+  },
+  {
+  "id": 9,
+  "name": "Freelancer Toolkit",
+  "description": "Essential tools for freelancers to manage clients and projects efficiently.",
+  "price": 29,
+  "period": "monthly",
+  "tag": "popular",
+  "tagType": "popular",
+  "features": ["Invoice generator", "Client management", "Project tracking", "Time tracking"],
+  "icon": "Briefcase"
+}
+]

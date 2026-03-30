@@ -22,7 +22,7 @@ const Navbar = () => {
   </div>
   <div className="navbar-end gap-5">
    <BsCart2 />
-    <a >Login</a>
+    <button className='btn'>Login</button>
     <button className='btn rounded-4xl bg-gradient-to-r from-blue-700 to-purple-700 p-2 text-white'>Get Started</button>
   </div>
 </div>

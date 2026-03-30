@@ -2,6 +2,7 @@ import React from 'react';
 import bannerImg from '../assets/banner.png'
 import img from '../assets/react.svg'
 import { CiPlay1 } from 'react-icons/ci';
+import { WiDirectionRight } from 'react-icons/wi';
 const Banner = () => {
   return (
     <div className='container mx-auto flex items-center justify-around my-10'>
@@ -17,8 +18,8 @@ const Banner = () => {
        software—all in one place. Start creating faster today.
        Explore Products</p>
        <div className='flex gap-6'>
-        <button className=' btn rounded-4xl bg-gradient-to-r from-blue-700 to-purple-700 p-2 text-white'>Explore Products</button>
-        <button className='btn border-purple-900 rounded-4xl text-purple-800'><CiPlay1 /> Watch Demo</button>
+        <button className=' btn rounded-4xl bg-gradient-to-r from-blue-700 to-purple-700 p-3 text-white'>Explore Products <WiDirectionRight /></button>
+        <button className='btn border-purple-900 rounded-4xl text-purple-800 hover:bg-gradient-to-r from-blue-700 to-purple-700 '><CiPlay1 /> Watch Demo</button>
        </div>
      </div>
 
