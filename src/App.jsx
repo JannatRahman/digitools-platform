@@ -40,7 +40,7 @@ const [carts, setCarts] = useState([]);
   onClick={() => setToggleTab("products")}
    defaultChecked />
 
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40 bg-gray-200 hover:bg-gradient-to-r from-pink-500 to-red-500" aria-label="Cart"
+  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40 bg-gray-200 hover:bg-gradient-to-r from-pink-500 to-red-500" aria-label={`Cart (${carts.length})`}
   onClick={() => setToggleTab("cart")}  
   />
         </div>
