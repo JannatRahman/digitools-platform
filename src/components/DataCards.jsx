@@ -13,6 +13,13 @@ const DataCards = ({data, carts, setCarts }) => {
 
 const handleBuyItem = () => {
   setIsBuy(true);
+
+  const isDuplicate = carts.find(item => item.id === data.id)
+  if(isDuplicate){
+    toast.error("Item already exist");
+    return;
+  }
+
   setCarts([...carts, data])
   toast.success("Items added to cart");
 }

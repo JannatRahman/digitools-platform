@@ -1,7 +1,7 @@
-import React from 'react';
 import { BsCart2 } from 'react-icons/bs';
 
 const Navbar = () => {
+  
   return (
     <div className="navbar bg-base-100 shadow-sm container mx-auto">
   <div className="navbar-start">
@@ -21,7 +21,8 @@ const Navbar = () => {
     </div>
   </div>
   <div className="navbar-end gap-5">
-   <p className=''><BsCart2 /></p>
+   <p className=''>
+    < BsCart2 /></p>
     <button className='btn'>Login</button>
     <button className='btn rounded-4xl bg-gradient-to-r from-blue-700 to-purple-700 p-2 text-white'>Get Started</button>
   </div>

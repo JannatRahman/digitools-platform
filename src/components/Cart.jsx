@@ -7,12 +7,13 @@ const Cart = ({carts, setCarts}) => {
   const totalPrice = carts.reduce((sum, item) => sum + item.price, 0) 
   const handleProceed = () => {
     setCarts([]);
+    toast.success("Successfully Purchased");
   }
 
 const handleDelete = (item) => {
   const filterArray = carts.filter(c => c.id !== item.id)
   setCarts(filterArray)
-  toast.success("Items deleted");
+  toast.info("Items deleted");
 }
 
   return (
