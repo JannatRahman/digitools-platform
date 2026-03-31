@@ -1,20 +1,20 @@
-import React from 'react';
+import { use} from "react";
 
-const DataCard = () => {
+import DataCards from "./DataCards";
+
+const DataCard = ({dataPromise, carts, setCarts}) => {
+  const DataCard = use(dataPromise)
+
   return (
-    <div>
-      <div className='text-center space-y-2 mb-5'>
-        <h2 className='text-4xl font-bold'>Premium Digital Tools</h2>
-        <p className='text-sm  text-gray-500'>Choose from our curated collection of premium digital products designed to boost your productivity and creativity.</p>
-        
-          
-<div className="tabs  justify-center ">
-  <input type="radio" name="my_tabs_1" className="tab bg-gradient-to-r from-blue-700 to-purple-700 text-white rounded-l-2xl" aria-label="Products" />
+    <div className="">
+      
 
-  <input type="radio" name="my_tabs_1" className="tab rounded-r-2xl " aria-label="Cart (0)" defaultChecked />
-  
-
-        </div>
+      <div className="container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 p-5 mb-5 ">
+        {
+     DataCard.map(data => 
+     <DataCards key={data.id} data={data} carts={carts} setCarts={setCarts}></DataCards>
+)
+        }
       </div>
     </div>
   );
