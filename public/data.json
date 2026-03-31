@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "../src/assets/writing_2327400 1.png",
+    "image": "https://i.ibb.co.com/XfTbC2HM/writing-2327400-1.png",
     "name": "AI Writing Pro",
     "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
     "price": 9,
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "image": "../src/assets/design-tool.png",
+    "image": "https://i.ibb.co.com/b57gM6KN/design-tool.png",
     "name": "Design Templates Pack",
     "description": "2000+ premium templates for social media, presentations, and marketing materials.",
     "price": 19,
@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "image": "../src/assets/camera_8775444 1.png",
+    "image": "https://i.ibb.co.com/HfKLT6Lt/camera-8775444-1.png",
     "name": "Premium Stock Assets",
     "description": "All-in-one package to boost your job applications.",
     "price": 49,
@@ -37,7 +37,7 @@
   },
   {
     "id": 4,
-    "image": "../src/assets/operation.png",
+    "image": "https://i.ibb.co.com/Cs72Gvmk/operation.png",
     "name": "Automation Toolkit",
     "description": "Enhance your LinkedIn profile for better visibility.",
     "price": 12,
@@ -49,7 +49,7 @@
   },
   {
     "id": 5,
-    "image": "../src/assets/portfolio.png",
+    "image": "https://i.ibb.co.com/bjNWvmnM/portfolio.png",
     "name": "Resume Builder Pro",
     "description": "Practice interviews with AI-powered feedback.",
     "price": 25,
@@ -61,7 +61,7 @@
   },
   {
     "id": 6,
-    "image": "../src/assets/social-media.png",
+    "image": "https://i.ibb.co.com/kVKfL1XP/social-media.png",
     "name": "Social Media Content Kit",
     "description": "Yearly plan with full access to all career tools.",
     "price": 99,

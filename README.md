@@ -30,7 +30,8 @@ It is designed to be simple, fast, and user-friendly.
 
 - 🔹 **Add to Cart:** Seamlessly add products to your cart with a single click  
 - 🔹 **Real-Time Total Price:** Instantly see the total cost of items in the cart  
-- 🔹 **Purchase Items:** Easily purchase products after adding the items  
+- 🔹 **Purchase Items:** Easily purchase products after adding the items 
+ 
 - 🔹 **Remove Items:** Easily delete products from the cart with interactive UI  
 
 ---
