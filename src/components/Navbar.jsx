@@ -1,6 +1,6 @@
 import { BsCart2 } from 'react-icons/bs';
 
-const Navbar = () => {
+const Navbar = ({carts}) => {
   
   return (
     <div className="navbar bg-base-100 shadow-sm container mx-auto">
@@ -21,8 +21,15 @@ const Navbar = () => {
     </div>
   </div>
   <div className="navbar-end gap-5">
-   <p className=''>
-    < BsCart2 /></p>
+  <div className='relative'>
+    < BsCart2  className='text-2xl'/>  
+     {carts.length > 0 && (
+            <span className='absolute -top-2 -right-3 bg-red-600 text-white text-xs px-2 py-0.5 rounded-full'>
+              {carts.length}
+            </span>
+          )}
+  </div>
+
     <button className='btn'>Login</button>
     <button className='btn rounded-4xl bg-gradient-to-r from-blue-700 to-purple-700 p-2 text-white'>Get Started</button>
   </div>

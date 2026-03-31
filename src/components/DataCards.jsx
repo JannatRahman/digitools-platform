@@ -49,7 +49,11 @@ const handleBuyItem = () => {
       ))}
     </div>
     <div className="mb-5">
-      <button onClick={handleBuyItem} className=' btn rounded-4xl bg-gradient-to-r from-blue-700 to-purple-700 p-4 text-white w-full'>{isBuy ? "Added to cart" : "Buy Now"}</button>
+      <button onClick={handleBuyItem} className={` btn rounded-4xl w-full text-white p-4 ${
+      isBuy 
+      ? "bg-green-500"
+      : "bg-gradient-to-r from-blue-700 to-purple-700"
+      } `}>{isBuy ? "Added to cart" : "Buy Now"}</button>
     </div>
 </div>
   );

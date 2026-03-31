@@ -24,7 +24,7 @@ const [carts, setCarts] = useState([]);
 
   return (
     <>
-    <Navbar></Navbar>
+    <Navbar carts={carts}></Navbar>
     <Banner></Banner>
 
  <div className='text-center space-y-2 mb-7'>
@@ -35,12 +35,23 @@ const [carts, setCarts] = useState([]);
 
 </div>
 
-<div className="tabs  justify-center pb-10">
-  <input type="radio" name="my_tabs_1" className="tab bg-gradient-to-r from-blue-700 to-purple-700 text-white rounded-full w-40" aria-label="Products"
+<div className="tabs justify-center pb-10 gap-2">
+  
+  <input type="radio" name="my_tabs_1" className={`tab text-white rounded-full w-40 transition-all duration-300 ${
+    toggleTab === "products" 
+    ? "bg-gradient-to-r from-blue-700 to-purple-700 text-white scale-105 shadow-lg"
+    : "bg-gray-300 text-black hover:bg-gray-300"
+  }`} aria-label="Products"
   onClick={() => setToggleTab("products")}
    defaultChecked />
 
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40 bg-gray-200 hover:bg-gradient-to-r from-pink-500 to-red-500" aria-label={`Cart (${carts.length})`}
+  <input type="radio" name="my_tabs_1" className={`tab text-white rounded-full w-40 transition-all duration-300 ${
+    toggleTab === "cart" 
+    ? "bg-gradient-to-r from-pink-500 to-red-500 text-white scale-105 shadow-lg"
+    : "bg-gray-300 text-black hover:bg-gray-300"
+  }`} 
+  
+  aria-label={`Cart (${carts.length})`}
   onClick={() => setToggleTab("cart")}  
   />
         </div>
