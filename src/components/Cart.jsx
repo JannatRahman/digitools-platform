@@ -1,6 +1,7 @@
 import React from 'react';
 import { HiOutlineEmojiSad } from 'react-icons/hi';
 import { MdDelete } from 'react-icons/md';
+import { toast } from 'react-toastify';
 
 const Cart = ({carts, setCarts}) => {
   const totalPrice = carts.reduce((sum, item) => sum + item.price, 0) 
@@ -11,6 +12,7 @@ const Cart = ({carts, setCarts}) => {
 const handleDelete = (item) => {
   const filterArray = carts.filter(c => c.id !== item.id)
   setCarts(filterArray)
+  toast.success("Items deleted");
 }
 
   return (

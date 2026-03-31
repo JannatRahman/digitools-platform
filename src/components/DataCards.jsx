@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaCheck } from "react-icons/fa";
+import { toast } from 'react-toastify';
 const tagStyles = {
   "best seller": "bg-yellow-100 text-yellow-600",
   new: "bg-green-100 text-green-600",
@@ -13,6 +14,7 @@ const DataCards = ({data, carts, setCarts }) => {
 const handleBuyItem = () => {
   setIsBuy(true);
   setCarts([...carts, data])
+  toast.success("Items added to cart");
 }
 
   return (
