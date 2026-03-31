@@ -21,7 +21,7 @@ const handleDelete = (item) => {
       <h2 className='text-3xl font-bold pb-5'>Your Cart</h2>
 
       {
-        carts.length === 0 ? <p className='flex justify-center items-center gap-2 text-2xl p-5'>Cart is empty <span className=''><HiOutlineEmojiSad /></span></p> : <>
+        carts.length === 0 ? <p className='flex justify-center items-center gap-2 text-2xl p-10'>Cart is empty <span className=''><HiOutlineEmojiSad /></span></p> : <>
         <div className='space-y-5 rounded-2xl'>
       {
       carts.map(item => <div key={item.id} className='border border-gray-300 rounded-2xl bg-gray-100'>
