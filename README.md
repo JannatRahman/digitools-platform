@@ -18,11 +18,12 @@ It is designed to be simple, fast, and user-friendly.
 ---
 
 ## 🛠️ Technologies Used
-- React
-- Tailwind CSS
+- React.js
+- Tailwind CSS, DaisyUI
 - React Icons
-- React Toastify
-- Google Fonts
+- JavaScript (ES6+)
+- React-Toastify (NPM Package)
+- JSON (for product data)
 
 ---
 

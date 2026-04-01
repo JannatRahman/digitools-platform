@@ -36,7 +36,7 @@ const handleBuyItem = () => {
     </div>
     
     <div className="flex ga-5 space-y-2 items-center">
-      <p className="text-2xl font-bold">{data.price}</p>
+      <p className="text-2xl font-bold">${data.price}</p>
       <p>/{data.period}</p>
      
     </div>

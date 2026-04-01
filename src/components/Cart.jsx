@@ -40,7 +40,7 @@ const handleDelete = (item) => {
         <p className='text-gray-600 text-sm sm:text-base'>${item.price}</p>
         </div>
 
-        <button onClick={() => handleDelete(item)} className='text-red-600 text-xl self-center sm:self-auto'><MdDelete />
+        <button onClick={() => handleDelete(item)} className='text-red-600 text-xl self-center sm:self-auto cursor-pointer'><MdDelete />
         </button>
         
       </div>
